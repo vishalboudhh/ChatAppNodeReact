@@ -2,7 +2,7 @@ import './App.css';
 import Chats from './Chats';
 import io from "socket.io-client";
 import{ useState } from 'react';
-const socket = io.connect("https://chat-app-node-react-1u7z.vercel.app/");
+const socket = io.connect("https://chat-app-node-react-1u7z-cvbtftc6q-vishalboudhhs-projects.vercel.app/");
 
 
 function App() {
